@@ -9,7 +9,7 @@ from urllib.request import urlopen
 import re
 
 BASE_URL = "https://www.imdb.com/list/ls056549735/?sort=list_order,asc&st_dt=&mode=detail&page="
-SOURCE_DATA = '../data/raw/unclean_movie_names.csv'
+SOURCE_DATA = '../data/raw/'
 DEST_DIR = '../data/processed/'
 
 def fetch_movie_names():
