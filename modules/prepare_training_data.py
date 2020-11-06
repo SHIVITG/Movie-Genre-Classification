@@ -4,6 +4,8 @@ import pandas as pd
 import csv
 from tqdm import tqdm
 import json
+import warnings
+warnings.filterwarnings("ignore")
 
 BASE_DIR = '../data/train/raw/'
 DESTINATION_DIR = '../data/train/processed/'
